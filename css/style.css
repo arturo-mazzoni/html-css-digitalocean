@@ -10,11 +10,15 @@
   height: 50px;
 }
 
+.height_100 {
+  height: 100px;
+}
+
 .am_bgc_lightblue {
   background-color: lightblue;
 }
 
-nav {
+.am_bgc_lightgrey {
   background-color: lightgrey;
 }
 
