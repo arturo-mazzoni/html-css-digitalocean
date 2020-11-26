@@ -31,3 +31,7 @@
   height: 70px;
   background-color: grey;
 }
+
+.am_padding {
+  padding: 70px 0;
+}
