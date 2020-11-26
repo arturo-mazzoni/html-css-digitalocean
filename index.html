@@ -11,23 +11,23 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="body">
 
   <header>
 
     <nav>
       <div class="container">
         <div class="row">
-          <div class="col-xs-6 col-lg-3 am_border am_nav line_height_70">
+          <div class="col-xs-6 col-lg-3 am_nav line_height_70">
             <img src="https://brandslogos.com/wp-content/uploads/thumbs/digitalocean-logo-vector-1.svg" alt="">
           </div>
-          <div class="col-xs-6 col-lg-4 am_border am_nav line_height_70">
+          <div class="visible-lg-block col-xs-6 col-lg-4 am_nav line_height_70">
             <a href="#">Products<i class="fas fa-chevron-down"></i></a>
             <a href="#">Customers</a>
             <a href="#">Community<i class="fas fa-chevron-down"></i></a>
             <a href="#">Pricing</a>
           </div>
-          <div class="visible-lg-3 am_border am_nav line_height_70 text_al_right">
+          <div class="am_nav line_height_70 text_al_right">
             <a href="#">Docs</a>
             <a href="#">Support<i class="fas fa-chevron-down"></i></a>
             <a href="#">Login</a>
@@ -40,11 +40,11 @@
     <div class="jumbo">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-sm-7 am_border color_white padding_50">
+          <div class="col-xs-12 col-sm-7 color_white padding_50">
             <h1>The simplest platform for developers and teams</h1>
             <p>We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more. We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</p>
           </div>
-          <div class="col-xs-12 col-sm-5 am_border bgc_white margin_top_50 border_rad">
+          <div class="col-xs-12 col-sm-5 bgc_white margin_top_50 border_rad">
             <h2>Deploy your app in seconds.</h2>
             <a href="#">Get started now.</a>
             <form>
@@ -83,23 +83,35 @@
         </div>
 
         <div class="row padding_50">
-          <div class="col-xs-6 col-lg-2 height_50">
-            <img class="width_100" src="img/logo_docker.png" alt="docker">
+          <div class="col-xs-6 col-lg-2">
+            <div class="box_img line_height_50">
+              <img class="width_100" src="img/logo_docker.png" alt="docker">
+            </div>
           </div>
-          <div class="col-xs-6 col-lg-2 height_50">
-            <img class="width_100" src="img/logo_gitlab.png" alt="gitlab">
+          <div class="col-xs-6 col-lg-2">
+            <div class="box_imgline_height_50">
+              <img class="width_100" src="img/logo_gitlab.png" alt="gitlab">
+            </div>
           </div>
-          <div class="col-xs-6 col-lg-2 height_50">
-            <img class="width_100" src="img/logo_hashicorp.png" alt="corp">
+          <div class="col-xs-6 col-lg-2">
+            <div class="box_img line_height_50">
+              <img class="width_100" src="img/logo_hashicorp.png" alt="corp">
+            </div>
           </div>
-          <div class="col-xs-6 col-lg-2 height_50">
-            <img class="width_100" src="img/logo_slack.png" alt="slack">
+          <div class="col-xs-6 col-lg-2">
+            <div class="box_img line_height_50">
+              <img class="width_100" src="img/logo_slack.png" alt="slack">
+            </div>
           </div>
-          <div class="col-xs-6 col-lg-2 height_50">
-            <img class="width_100" src="img/logo_splunk.png" alt="splunk">
+          <div class="col-xs-6 col-lg-2">
+            <div class="box_img line_height_50 height_50">
+              <img class="width_100" src="img/logo_splunk.png" alt="splunk">
+            </div>
           </div>
-          <div class="col-xs-6 col-lg-2 height_50">
-            <img class="width_100" src="img/rockerbox_logo.png" alt="rockerbox">
+          <div class="col-xs-6 col-lg-2">
+            <div class="box_img line_height_50">
+              <img class="width_100" src="img/rockerbox_logo.png" alt="rockerbox">
+            </div>
           </div>
         </div>
 
@@ -121,17 +133,50 @@
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-xs-12 col-sm-4 am_border height_500"></div>
+        <div class="row padding_50">
+          <div class="col-xs-6 col-sm-4 col am_border height_500">
+            <div class="row">
+              <div class="col-xs-6 col-xs-offset-6">
+                <a class="menu" href="#">Deploy</a>
+                <a class="menu" href="#">Manage</a>
+                <a class="menu" href="#">Secure</a>
+                <a class="menu" href="#">Scale</a>
+                <a class="menu" href="#">Monitor</a>
+              </div>
+            </div>
+          </div>
           <div class="col-xs-12 col-sm-8 am_border">
             <div class="row">
-              <div class="col-xs-12 col-sm-6 am_border height_250">1</div>
-              <div class="col-xs-12 col-sm-6 am_border height_250">2</div>
+              <div class="col-xs-12 col-sm-6 am_border height_250">
+                <div class="div_img">
+                  <img src="https://prismic-io.s3.amazonaws.com/www-static/16ae92b4-6939-446c-b6a3-0ffec01cdc14_kublogoicon.svg" alt="">
+                </div>
+                <div class="div_text">
+                  <h4>Kubernetes in minutes</h4>
+                  <p>Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 am_border height_250">
+                <div class="div_img">
+                  <img src="https://prismic-io.s3.amazonaws.com/www-static/9d343e9c-fe74-4979-8ad9-e8efc58d6ee7_dropletinboxicon.svg" alt="">
+                </div>
+                <div class="div_text"></div>
+              </div>
             </div>
 
             <div class="row">
-              <div class="col-xs-12 col-sm-6 am_border height_250">3</div>
-              <div class="col-xs-12 col-sm-6 am_border height_250">4</div>
+              <div class="col-xs-12 col-sm-6 am_border height_250">
+                <div class="div_img">
+                  <img src="https://prismic-io.s3.amazonaws.com/www-static/fe503988-b608-4666-8824-e9f37681a852_featured-AP-icon.svg" alt="">
+                </div>
+                <div class="div_text"></div>
+
+              </div>
+              <div class="col-xs-12 col-sm-6 am_border height_250">
+                <div class="div_img">
+                  <img src="https://prismic-io.s3.amazonaws.com/www-static/936bb585-99ba-460d-ae2f-7bbdae8896cc_stacksplusicon.svg" alt="">
+                </div>
+              </div>
             </div>
           </div>
 

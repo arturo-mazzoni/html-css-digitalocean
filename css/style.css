@@ -31,7 +31,7 @@
   height: 70px;
 }
 
-body {
+#body body {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -45,6 +45,12 @@ body {
 .line_height_70 {
   line-height: 70px;
 }
+
+.line_height_50 {
+  height: 50px;
+  line-height: 50px;
+}
+
 
 .text_al_right {
   text-align: right;
@@ -144,7 +150,17 @@ nav a {
   font-size: 20px;
 }
 
+.menu {
+  display: block;
+  border-left: 1px solid black;
+  padding: 15px 0;
+  font-size: 20px;
+  text-decoration: none;
+}
 
+.div_text p {
+  font-size:3px;
+}
 
 
 
