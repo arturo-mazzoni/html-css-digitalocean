@@ -19,7 +19,7 @@
 }
 
 .am_bgc_lightblue {
-  background-color: lightblue;
+  background-color: #0060ff;
 }
 
 .am_bgc_lightgrey {
@@ -51,6 +51,9 @@
   line-height: 50px;
 }
 
+.font_size_20 {
+  font-size: 20px;
+}
 
 .text_al_right {
   text-align: right;
@@ -84,12 +87,16 @@
   padding: 10px 0;
 }
 
+.padding_15 {
+  padding: 15px;
+}
+
 .margin_10 {
   margin: 10px 0;
 }
 
-.margin_top_50 {
-  margin-top: 50px;
+.margin_50 {
+  margin: 50px 0;
 }
 
 .border_rad {
@@ -146,10 +153,6 @@ nav a {
   font-weight: 700;
 }
 
-#deploy p {
-  font-size: 20px;
-}
-
 .menu {
   display: block;
   border-left: 1px solid black;
@@ -158,8 +161,35 @@ nav a {
   text-decoration: none;
 }
 
-.div_text p {
-  font-size:3px;
+.div_text .text_deploy {
+  font-size:15px;
+  font-weight: bold;
+  color: #5b6987;
+}
+
+.div_text h4 {
+  font-weight: bold;
+}
+
+/* fine deploy */
+
+/* designed */
+
+#designed h2 {
+  font-weight: bold;
+}
+
+.box_slide_img::before {
+  content: "<i class="fas fa-chevron-left"></i>";
+}
+
+/* fine designed */
+
+/* features */
+
+#features h2 {
+  padding-top: 50px;
+  font-weight: bold;
 }
 
 
@@ -177,4 +207,15 @@ nav a {
 
 
 
-sazfdxfdxsafedsetswaersaetastersa
+
+
+
+
+
+
+
+
+
+
+
+dsfgdfgdrfgdfagdsfragr
