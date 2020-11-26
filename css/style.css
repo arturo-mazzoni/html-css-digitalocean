@@ -23,7 +23,7 @@
 }
 
 .am_bgc_lightgrey {
-  background-color: lightgrey;
+  background-color: #f3f5f9;
 }
 
 .am_nav {
@@ -37,6 +37,10 @@ body {
 
 
 /* utili */
+
+.width_100 {
+  width: 100%;
+}
 
 .line_height_70 {
   line-height: 70px;
@@ -74,8 +78,8 @@ body {
   padding: 10px 0;
 }
 
-.margin_top_10 {
-  margin-top: 10px;
+.margin_10 {
+  margin: 10px 0;
 }
 
 .margin_top_50 {
@@ -85,6 +89,17 @@ body {
 .border_rad {
   border: 1px solid white;
   border-radius: 5px;
+}
+
+.position_relative {
+  position: relative;
+}
+
+.position_absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -116,7 +131,18 @@ nav a {
   font-size: 20px;
 }
 
+/* fine jumbotron */
 
+/* deploy */
+
+#deploy h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#deploy p {
+  font-size: 20px;
+}
 
 
 
