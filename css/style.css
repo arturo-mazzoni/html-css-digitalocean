@@ -51,8 +51,16 @@
   line-height: 50px;
 }
 
+.text_blue {
+  color: #031b4e;
+}
+
 .font_size_20 {
   font-size: 20px;
+}
+
+.font_bold {
+  font-weight: bold;
 }
 
 .text_al_right {
@@ -69,6 +77,10 @@
 
 .color_blue {
   color: #0067ff;
+}
+
+.color_grey {
+  color: #7f8693;
 }
 
 .color_white {
@@ -89,6 +101,10 @@
 
 .padding_15 {
   padding: 15px;
+}
+
+.padding_top_30 {
+  padding-top: 30px;
 }
 
 .margin_10 {
@@ -148,10 +164,6 @@ nav a {
 
 /* deploy */
 
-#deploy h2 {
-  font-size: 30px;
-  font-weight: 700;
-}
 
 .menu {
   display: block;
@@ -192,13 +204,84 @@ nav a {
   font-weight: bold;
 }
 
+#regions h2 {
+  font-weight: bold;
+}
 
 
+/* rocker */
 
+#rocker h2 {
+  font-weight: bold;
+}
 
+#get-started {
+  background-color: #005cff;
+}
 
+#get-started h2 {
+  font-weight: bold;
+}
 
+footer {
+  background-color: #010e28;
+}
 
+footer p a i {
+  padding: 0 3px;
+}
+
+footer p a i:hover {
+  color: white;
+}
+
+footer ul li {
+  list-style-type: none;
+  line-height: 1.6;
+}
+
+footer ul li:first-child {
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  padding: 15px 0;
+}
+
+#company li a {
+  text-decoration: none;
+  color: #7f8693;
+}
+
+#company li a:hover {
+  color: white;
+}
+
+#products li a {
+  text-decoration: none;
+  color: #7f8693;
+}
+
+#products li a:hover {
+  color: white;
+}
+
+#community li a {
+  text-decoration: none;
+  color: #7f8693;
+}
+
+#community li a:hover {
+  color: white;
+}
+
+#support li a {
+  text-decoration: none;
+  color: #7f8693;
+}
+
+#support li a:hover {
+  color: white;
+}
 
 
 
