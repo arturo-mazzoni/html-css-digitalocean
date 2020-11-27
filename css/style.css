@@ -35,6 +35,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+#body a {
+  text-decoration: none;
+}
+
 
 /* utili */
 
@@ -59,8 +63,12 @@
   font-size: 20px;
 }
 
+.font_size_30 {
+  font-size: 30px;
+}
+
 .font_bold {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .text_al_right {
@@ -107,6 +115,10 @@
   padding-top: 30px;
 }
 
+.padding_3 {
+  padding: 0 3px;
+}
+
 .margin_10 {
   margin: 10px 0;
 }
@@ -144,13 +156,23 @@
 
 /* barra di navigazione */
 
+#header_navbar a {
+  color: #031b4e;
+  font-weight: bold;
+}
+
+#header_navbar a:hover {
+  color: #0060ff;
+}
+
 nav img {
-  width: 100%;
+  width: 80%;
 }
 
 nav a {
   margin: 10px;
 }
+
 
 /* fine barra di navigazione */
 
@@ -167,6 +189,7 @@ nav a {
 .jumbo p {
   font-size: 20px;
 }
+
 
 /* fine jumbotron */
 
