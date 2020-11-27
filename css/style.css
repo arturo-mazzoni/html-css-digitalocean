@@ -19,7 +19,7 @@
 }
 
 .am_bgc_lightblue {
-  background-color: #0060ff;
+  background-color: rgb(26, 56, 135);
 }
 
 .am_bgc_lightgrey {
@@ -111,6 +111,10 @@
   margin: 10px 0;
 }
 
+.margin_15 {
+  margin: 15px;
+}
+
 .margin_50 {
   margin: 50px 0;
 }
@@ -118,6 +122,10 @@
 .border_rad {
   border: 1px solid white;
   border-radius: 5px;
+}
+
+.border_bott {
+  border-bottom: 1px solid white;
 }
 
 .position_relative {
@@ -206,6 +214,16 @@ nav a {
 
 #regions h2 {
   font-weight: bold;
+}
+
+#regions a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #02d7d2;
+}
+
+#regions a:hover {
+  color: #031b4e;
 }
 
 
