@@ -51,8 +51,8 @@
 }
 
 .line_height_50 {
-  height: 50px;
-  line-height: 50px;
+  height: 150px;
+  line-height: 150px;
 }
 
 .text_blue {
@@ -223,7 +223,9 @@ nav a {
 }
 
 .box_slide_img::before {
-  content: "/f053";
+  font-family: "Font Awesome 5 Free";
+  content: "\f095";
+  font-weight: 900;
 }
 
 /* fine designed */
