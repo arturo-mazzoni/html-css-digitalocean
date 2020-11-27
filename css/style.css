@@ -123,12 +123,20 @@
   margin: 10px 0;
 }
 
+.margin {
+  margin: 0 10px;
+}
+
 .margin_15 {
   margin: 15px;
 }
 
 .margin_50 {
   margin: 50px 0;
+}
+
+.margin_bott_50 {
+  margin-bottom: 50px;
 }
 
 .border_rad {
@@ -224,8 +232,22 @@ nav a {
 
 .box_slide_img::before {
   font-family: "Font Awesome 5 Free";
-  content: "\f095";
+  content: "\f053";
   font-weight: 900;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  left: 0;
+}
+
+.box_slide_img::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f054";
+  font-weight: 900;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  right: 0;
 }
 
 /* fine designed */
